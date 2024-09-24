@@ -1,0 +1,12 @@
+{
+  "name": "bless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.md",
+  "scripts": {
+    "build": "eleventy",
+    "deploy": "npm run build && git add . && git commit -m 'deploy' && git push origin main"
+  },
+  "author": "",
+  "license": "ISC"
+}
